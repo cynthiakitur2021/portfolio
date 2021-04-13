@@ -1,0 +1,40 @@
+.grid-container{
+ 	display: grid;
+ 	  grid-template-areas: 
+ 	  'one one one one one one one '
+ 	  'two two two two two two two'
+ 	  'three three three three three three three'
+ 	  'four four four four five five five'
+ 	  
+ 	  'six six six six six six six'
+ 	  'seven seven seven seven seven seven seven'
+
+
+ }
+
+#one{ color: red;
+font-family: cursive;
+font-size: large;
+grid-area: one; }
+
+#two{
+     grid-area: two;}
+
+     #three{ color: pink;
+     font-family: fantasy;
+     grid-area: three; }
+
+     #four {color: purple;
+     grid-area: four;
+     display: inline; }
+
+     #five {color: purple;
+     	grid-area:five;
+     	display: inline;
+     }
+     #six {display: block;
+     	grid-area: six;}
+
+
+     	#seven{color: blue;
+     		grid-area: seven;}
