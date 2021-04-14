@@ -38,3 +38,57 @@ grid-area: one; }
 
      	#seven{color: blue;
      		grid-area: seven;}
+
+
+  @media screen and (width: 360px){
+
+
+#one{ color: red;
+font-family: cursive;
+font-size: large;
+grid-area: oneMedia; }
+
+#two{
+     grid-area: twoMedia;}
+
+     #three{ color: pink;
+     font-family: fantasy;
+     grid-area: threeMedia; }
+
+     #four {color: purple;
+     grid-area: fourMedia;
+     display: inline; }
+
+     #five {color: purple;
+          grid-area:fiveMedia;
+          display: inline;
+     }
+     #six {display: block;
+          grid-area: sixMedia;}
+
+
+          #seven{color: blue;
+               grid-area: sevenMedia;}
+ 
+ .grid-container{
+
+     display: grid;
+      grid-gap: 10px;
+      grid-template-areas: 
+      'oneMedia oneMedia oneMedia oneMedia oneMedia oneMedia oneMedia'
+      'twoMedia twoMedia twoMedia twoMedia twoMedia twoMedia twoMedia'
+      'threeMedia threeMedia threeMedia threeMedia threeMedia threeMedia threeMedia'
+      'fourMedia fourMedia fourMedia fourMedia fourMedia fourMedia fourMedia'
+      'fiveMedia fiveMedia fiveMedia fiveMedia fiveMedia fiveMedia fiveMedia'
+      'sixMedia sixMedia sixMedia sixMedia sixMedia sixMedia sixMedia'
+      'sevenMedia sevenMedia sevenMedia sevenMedia sevenMedia sevenMedia sevenMedia'
+       
+ }
+
+
+
+
+
+
+
+  
